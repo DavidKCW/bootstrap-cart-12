@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    font-family: "Segoe UI", SegoeUI, "Microsoft JhengHei", 微軟正黑體, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1920px;
+    align-items: center;
+    /* height: 100vh; */
+    /* margin: 0 auto; */
+    /* padding: 0 95px; */
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 55px;
+    /* justify-items: center; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    margin-bottom: 1px;
+    font-size: 13px;
+}
+
+.nav-bar{
+    display: flex;
+    padding: 0 5px;
+    /* line-height: 1; */
+}
+
+.nav-bar > .logo{
+    /* width: 137px; */
+    height: 23px;
+    /* margin-right: 18px; */
+}
+
+.nav-bar > ul, .nav-bar > li{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    position: relative;
+}
+
+.menu-item{
+    /* padding: 0 12px; */
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 5px;
+}
+
+.menu-item-link{
+    position: relative;
+}
+
+.menu-item-link::before{
+    background-color: red;
+    content: "";
+    display: none;
+    height: 2px;
+    position: absolute;
+}
+
+.menu-item > a{
+    color: #262626;
+    
+}
+
+.login-bar{
+    display: flex;
+    /* margin-left: auto; */
+    align-items: center;
+}
+
+.login-bar>a{
+    color: #262626;
+    /* display: inline-block; */
+}
+
+.login-icon{
+    padding: 0px 5px 0px 13px;
+    font-size: 32px;
+    color: #707070;
+}
+
+.function-btn{
+    display: flex;
+    align-items: center;
+}
+
+.function-menu{
+    display: none;
+}
+
+.fa-chevron-down{
+    margin: 1px;
+}
+
+.all-microsoft{
+    margin-right: 35px;
+}
+
+.fa-search, .fa-shopping-cart{
+    padding: 5px;
+}
+
+.search{
+    margin-right: 44px;
+}
+
+.shopping-car{
+    margin-right: 11px;
+}
+
+/* ===Banner-1 共同===*/
+.banner-1-row-1{
+    display: flex;
+}
+
+.banner-1-card{
+    position: relative;
+}
+
+.banner-1-content{
+    position: absolute;
+}
+
+/* ===Banner-1-Highlight=== */
+.banner-1-highlight{
+    width: 1600px;
+    height: 100%;
+}
+
+.content-1{
+    top: 60px;
+    left: 990px;
+    width: 520px;
+    height: 200px;
+}
+
+.label-new{
+    width: 72px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    background-color: #ffb900;
+    margin-bottom: 12px;
+}
+
+.product-name{
+    width: 520px;
+    height: 40px;
+    font-size: 34px;
+    margin: 0mm;
+    /* letter-spacing: -0.34px; */
+}
+
+.introduce{
+    font-size: 15px;
+}
+
+.now-label{
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    width: 125px;
+    height: 40px;
+    border: black;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+/* ===Banner-1-col-4=== */
+/* .banner-1-col-4{
+    width: 25%;
+} */
+.banner-1-row-2{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-1-card-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-2{
+    width: 370px;
+    height: 40px;
+}
+
+img{
+    width: 100%;
+}
+
+.label-new{
+    width: 72px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    background-color: #ffb900;
+    margin-bottom: 12px;
+}
+
+.product-name{
+    width: 520px;
+    height: 40px;
+    font-size: 34px;
+    margin: 0mm;
+    /* letter-spacing: -0.34px; */
+}
+
+.introduce{
+    font-size: 15px;
+}
+
+.now-label{
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    width: 125px;
+    height: 40px;
+    border: black;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #000000;
+}
